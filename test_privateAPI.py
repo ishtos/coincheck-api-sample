@@ -43,6 +43,18 @@ positions = coincheck.get(path_positions)
 print(positions)
 print()
 
+###
+leverage positions with parameter("open")
+###
+
+path_leverage = '/api/exchange/leverage/positions'
+params = {
+    "status": "open"
+}
+result = coincheck.get(path_leverage, params)
+print(result)
+
+
 path_balance = '/api/accounts/balance'
 balance = coincheck.get(path_balance)
 print(balance)
@@ -52,6 +64,14 @@ path_leverage_balance = '/api/accounts/leverage_balance'
 leverage_balance = coincheck.get(path_leverage_balance)
 print(leverage_balance)
 print()
+
+path_leverage = '/api/exchange/leverage/positions'
+params = {
+    "status": "open"
+}
+result = coincheck.get(path_leverage, params)
+print(result)
+
 
 # path_send_money = '/api/send_money'
 # params = {
