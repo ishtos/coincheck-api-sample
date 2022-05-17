@@ -1,4 +1,4 @@
-# coincheckAPI_TEST
+# coincheckAPI_SAMPLE
 
 ## Overview
 This is a sample code to confirm coincheck API.
@@ -7,7 +7,7 @@ This is a sample code to confirm coincheck API.
 ### Public API
 
 ```python
-python test_publicAPI.py
+python sample_publicAPI.py
 ```
 
 ### Private API  
@@ -15,8 +15,8 @@ python test_publicAPI.py
 replace  
 access_key = "Your Access Key"  
 secret_key = "Your Secret Key"  
-in test_privateAPI.py
+in sample_privateAPI.py
 
 ```python
-python test_privateAPI.py
+python sample_privateAPI.py
 ```
