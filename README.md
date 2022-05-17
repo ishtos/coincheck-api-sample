@@ -1,4 +1,4 @@
-# coincheckAPI_SAMPLE
+# coincheck_api_sample
 
 ## Overview
 This is a sample code to confirm coincheck API.
